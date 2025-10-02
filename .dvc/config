@@ -1,0 +1,4 @@
+[core]
+    remote = tempremote
+['remote "tempremote"']
+    url = C:\Users\Varun\AppData\Local\Temp
