@@ -88,5 +88,7 @@ target/
 # Mypy cache
 .mypy_cache/
 
+# added files as per project
 myenv
 log_reg_model.pkl
+saved_models/
