@@ -92,3 +92,4 @@ target/
 myenv
 log_reg_model.pkl
 saved_models/
+LogisticRegression_BOW_model.pkl
