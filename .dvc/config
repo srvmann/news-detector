@@ -1,4 +1,4 @@
 [core]
-    remote = tempremote
-['remote "tempremote"']
-    url = C:\Users\Varun\AppData\Local\Temp
+    remote = cloudstorage01
+['remote "cloudstorage01"']
+    url = s3://dvc-news-detector
