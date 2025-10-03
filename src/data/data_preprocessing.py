@@ -8,6 +8,7 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer
 import scipy.sparse
 import logging
+import pickle
 
 # Configure a basic logger
 logging.basicConfig(
@@ -106,6 +107,10 @@ def process_and_vectorize_data(train_df, test_df, params):
         X_test_vectorized = vectorizer.transform(test_df['combined_text'])
         
         logging.info("Text vectorization complete.")
+
+        # saving the vectorizer for future use
+        pickle.dump(vectorizer, open("vectorizer.pkl", "wb"))
+
         return train_df, test_df, X_train_vectorized, X_test_vectorized, vectorizer
 
     except Exception as e:

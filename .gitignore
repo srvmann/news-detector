@@ -95,3 +95,5 @@ saved_models/
 LogisticRegression_BOW_model.pkl
 models/ 
 model.pkl
+mlruns/
+vectorizer.pkl

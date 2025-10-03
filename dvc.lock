@@ -26,8 +26,8 @@ stages:
       nfiles: 2
     - path: src/data/data_preprocessing.py
       hash: md5
-      md5: 42f51168d88084ea52c88583f4858af3
-      size: 6989
+      md5: 91c1ad610bfc33e741fd4a7a42b0a011
+      size: 7119
     params:
       params.yaml:
         dataPreprocessing.max_features: 10
